@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'aboreto', cursive;
+}
+body {
+    text-align: center;
+    background-color: rgba(250, 239, 215, 0.773);
+    padding: 90px;
+    max-width: 640%;
+    width: 100%;
+    border-bottom: 16px, bold;
+}
+h1 {
+    padding: 18px;
+}
+
+form, input, button {
+    display: inline;
+    text-align: center;
+    padding: 9px;
+    border: none;
+    border-radius: 9px;
+    
+}
+button {
+    background-color: rgba(2, 128, 0, 0.715);
+    cursor: pointer;
+}
+
+ul {
+    padding: 19px;
+}
+
+.myList {
+    list-style: none;
+    margin: 0;
+    padding: 0;    
+}
+
+.myList li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+#myList li.completed {
+    text-decoration: line-through;
+}
